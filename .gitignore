@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+
+# Editors and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Raw and generated data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/powerbi/*
+!data/powerbi/.gitkeep
+!data/powerbi/*.csv
+data/web/*
+!data/web/.gitkeep
+!data/web/*.json
+*.duckdb
+*.duckdb.wal
+
+# Power BI local/cache artifacts
+powerbi/*.pbix
+powerbi/.pbi/
