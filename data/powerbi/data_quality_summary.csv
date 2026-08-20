@@ -1,0 +1,9 @@
+metric,value
+raw_rows,2260701.0
+valid_issue_date_rows,2260668.0
+valid_funded_amount_rows,2260668.0
+cash_flow_reconciled_rows,2260668.0
+resolved_eligible_rows,1348099.0
+fully_matured_eligible_rows,676302.0
+open_book_rows,907904.0
+delinquent_rows,34252.0
