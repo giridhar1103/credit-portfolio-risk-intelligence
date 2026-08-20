@@ -1,0 +1,12 @@
+{
+  "dataset": "LendingClub accepted loans, 2007-2018 Q4",
+  "file": "accepted_2007_to_2018Q4.csv",
+  "source_page": "https://huggingface.co/datasets/codesignal/lending-club-loan-accepted",
+  "download_url": "https://huggingface.co/datasets/codesignal/lending-club-loan-accepted/resolve/main/accepted_2007_to_2018Q4.csv?download=true",
+  "mirror_license_label": "CC0-1.0",
+  "bytes": 1675133810,
+  "sha256": "3eae03c28fd9d2e8a076ebeb73507e8d4d0f44d90500decdb0936e0933d1f36a",
+  "validated_columns": 151,
+  "warehouse_rows": 2260701,
+  "retrieved_utc_date": "2026-08-20"
+}
