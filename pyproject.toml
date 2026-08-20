@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "credit-portfolio-risk-analytics"
+version = "0.1.0"
+description = "Analyst-focused credit portfolio, vintage, and expected-loss analytics"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb>=1.1.0",
+]
+
+[project.optional-dependencies]
+modeling = [
+  "joblib>=1.4.0",
+  "lightgbm>=4.5.0",
+  "numpy>=1.26.0",
+  "pandas>=2.2.0",
+  "pyarrow>=17.0.0",
+  "scikit-learn>=1.5.0",
+]
+dev = [
+  "pytest>=8.3.0",
+  "ruff>=0.8.0",
+]
+
+[project.scripts]
+credit-risk = "credit_portfolio_analytics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
