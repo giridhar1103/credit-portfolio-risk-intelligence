@@ -1,0 +1,7 @@
+id,loan_amnt,funded_amnt,out_prncp,term,int_rate,grade,sub_grade,annual_inc,issue_d,loan_status,purpose,dti,addr_state,earliest_cr_line,total_pymnt,total_rec_prncp,total_rec_int,total_rec_late_fee,recoveries,collection_recovery_fee,last_pymnt_d,last_credit_pull_d
+1,10000,10000,0, 36 months,8.5,A,A3,70000,Jan-2012,Fully Paid,credit_card,12.0,CA,Jan-2000,11200,10000,1200,0,0,0,Jan-2015,Apr-2019
+2,15000,15000,0, 36 months,14.0,C,C2,55000,Jun-2013,Charged Off,debt_consolidation,21.0,TX,Mar-2002,8000,6000,1500,50,450,50,Dec-2014,Apr-2019
+3,20000,20000,0, 60 months,18.0,D,D4,62000,Jan-2014,Fully Paid,home_improvement,25.0,NY,Apr-2001,24000,20000,4000,0,0,0,Jan-2019,Apr-2019
+4,12000,12000,8000, 36 months,11.0,B,B2,80000,Jan-2018,Current,credit_card,16.0,CA,Jun-2005,5000,4000,1000,0,0,0,Mar-2019,Apr-2019
+5,8000,8000,6000, 36 months,16.0,C,C5,45000,Mar-2013,Late (31-120 days),small_business,28.0,FL,Aug-2003,2500,2000,500,0,0,0,Mar-2019,Apr-2019
+6,25000,25000,15000, 60 months,21.0,E,E3,90000,Jan-2012,Default,debt_consolidation,31.0,NJ,Nov-1998,13000,10000,3000,0,0,0,Mar-2019,Apr-2019
