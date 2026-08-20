@@ -1,6 +1,5 @@
 # Credit Portfolio Risk Analytics
 
-> Temporary project name. The repository can be renamed after the final portfolio title is selected.
 
 An analyst-focused consumer credit portfolio project built around measurable business outcomes:
 portfolio quality, maturity bias, risk concentration, credit economics, open-book exposure,
