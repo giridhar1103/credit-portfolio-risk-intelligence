@@ -1,0 +1,2 @@
+resolved_loans,matured_loans,resolved_exposure,matured_exposure,resolved_defaults,matured_defaults,resolved_default_rate,matured_default_rate,resolved_exposure_default_rate,matured_exposure_default_rate,matured_population_retention_rate,default_rate_change_pp,default_rate_relative_change
+1348099,676302,19412877700.0,8831187600.0,269360,100546,0.19980728418313493,0.1486702686078113,0.21560947015083703,0.15017697902827928,0.5016708713529199,-5.113701557532363,-0.2559316882984786
