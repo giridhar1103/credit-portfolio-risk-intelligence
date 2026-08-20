@@ -1,0 +1,7 @@
+check_name,actual_value,expected_value,tolerance,passed
+cash_flow_identity,0.0,0.0,0.0,true
+expected_loss_population_ead,9510384856.440048,9510384856.439959,0.05,true
+lgd_recovery_identity,1.0000000000000018,1.0,1e-09,true
+open_book_summary_ead,9510384856.439789,9510384856.439585,0.05,true
+scenario_ead_consistency,0.0,0.0,0.05,true
+unique_loan_grain,0.0,0.0,0.0,true
