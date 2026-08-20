@@ -1,0 +1,2 @@
+loans,outstanding_exposure,current_loans,current_exposure,delinquent_loans,delinquent_exposure,default_loans,default_exposure,delinquent_exposure_rate,weighted_average_interest_rate,exposure_weighted_months_on_book
+907904,9510384856.439789,873780,9125761309.85979,34084,384240613.4900001,40,382933.08999999997,0.04040221497764293,13.249598893068727,14.997012526080209
