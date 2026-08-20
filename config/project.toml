@@ -1,0 +1,50 @@
+[project]
+snapshot_date = "2018-12-31"
+source_observation_date = "2019-04-01"
+raw_loans_csv = "data/raw/accepted_2007_to_2018Q4.csv"
+warehouse_path = "data/processed/credit_portfolio.duckdb"
+powerbi_output_dir = "data/powerbi"
+
+[targets]
+default_statuses = [
+  "Charged Off",
+  "Default",
+  "Does not meet the credit policy. Status:Charged Off",
+]
+non_default_statuses = [
+  "Fully Paid",
+  "Does not meet the credit policy. Status:Fully Paid",
+]
+delinquent_statuses = [
+  "Late (31-120 days)",
+  "Late (16-30 days)",
+  "In Grace Period",
+]
+charged_off_statuses = [
+  "Charged Off",
+  "Does not meet the credit policy. Status:Charged Off",
+]
+open_statuses = [
+  "Current",
+  "In Grace Period",
+  "Late (16-30 days)",
+  "Late (31-120 days)",
+  "Default",
+]
+
+[expected_loss]
+fallback_lgd = 0.60
+pd_smoothing_observations = 100
+lgd_smoothing_exposure = 1000000
+
+[scenarios.baseline]
+display_name = "Baseline"
+pd_multiplier = 1.00
+
+[scenarios.moderate]
+display_name = "Moderate Deterioration"
+pd_multiplier = 1.25
+
+[scenarios.severe]
+display_name = "Severe Deterioration"
+pd_multiplier = 1.50
