@@ -200,18 +200,3 @@ estimates. A temporally validated borrower-level model can later replace the gra
 - Prefer temporal validation to random splitting.
 - Do not interpret macroeconomic sensitivity as causal without supporting evidence.
 
-## Roadmap
-
-- [x] Repository and analytical project charter
-- [x] Raw-data contract and validation CLI
-- [x] DuckDB portfolio, vintage, segment, and expected-loss marts
-- [x] Power BI export layer
-- [x] Acquire and validate the full public raw dataset
-- [x] Publish the first verified portfolio findings
-- [x] Add recovery-adjusted credit economics and pricing adequacy proxies
-- [x] Separate the open book and rebuild expected loss on outstanding-principal EAD
-- [ ] Add an interpretable temporal risk model and optional tree-based challenger
-- [ ] Add probability calibration, risk-decile lift, and model drift
-- [ ] Build and reconcile the Power BI report
-- [x] Generate the executive credit risk review and evidence-backed résumé drafts
-- [ ] Publish the interactive dashboard and recruiter-facing website case study
